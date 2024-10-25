@@ -23,18 +23,46 @@ const bignumber = 12345678n
 // array , objects ,functions .
 
 
-const array = ["ram","hanuman","laxman"]
+// const array = ["ram","hanuman","laxman"]
 
-let myobj = {
-    age :23,
-    name :"debendra",
+// let myobj = {
+//     age :23,
+//     name :"debendra",
 
 
-}
+// }
 
-const myfunction =function(){
-    console.log("hello world ");
+// const myfunction =function(){
+//     console.log("hello world ");
     
-}
+// }
 
-console.log(typeof myfunction);
+// console.log(typeof myfunction);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+// stack (primitive) , heap (non primitive)
+
+
+  let youtub ="qrtyuioasdfghcvb"
+
+  let another = youtub
+  another = "dash"
+console.log(youtub);
+
+  console.log(another);
+
+let user ={
+    mail:"user@gmail.com"
+
+}
+ let user2= user
+ user2.mail ="dash@gmail.com" 
+console.log(user.mail);
+console.log(user2.mail);
+
